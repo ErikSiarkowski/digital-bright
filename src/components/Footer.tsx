@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <h3 className="text-xl font-bold mb-4 text-primary relative inline-block">
-              Agency
+              Digital Bright
               <div className="absolute -bottom-2 left-0 w-full h-0.5 bg-primary/50"></div>
             </h3>
             <p className="text-gray-400">
@@ -117,7 +117,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; {new Date().getFullYear()} Agency. Todos os direitos reservados.</p>
+          <p>&copy; {new Date().getFullYear()} Digital Bright. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>
