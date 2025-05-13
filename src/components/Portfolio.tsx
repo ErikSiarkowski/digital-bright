@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import { IconArrowRight } from '@tabler/icons-react'
 
 const projects = [
