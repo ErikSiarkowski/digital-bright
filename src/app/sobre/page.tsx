@@ -83,7 +83,7 @@ export default function Sobre() {
             </h2>
             <div className="prose prose-lg mx-auto">
               <p className="text-gray-600 mb-6">
-                Fundada em 2020, nossa agência nasceu da paixão por criar soluções digitais inovadoras 
+                Fundada em 2024, nossa agência nasceu da paixão por criar soluções digitais inovadoras 
                 que realmente fazem a diferença para os negócios dos nossos clientes.
               </p>
               <p className="text-gray-600 mb-6">

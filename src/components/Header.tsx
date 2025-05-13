@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import { IconMenu2, IconX } from '@tabler/icons-react'
+import Image from 'next/image'
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -12,7 +13,7 @@ export default function Header() {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           <Link href="/" className="text-2xl font-bold text-primary">
-            Digital Bright
+            <Image src="/images/logos/logo-preto.png" alt="Digital Bright" width={120} height={120} />
           </Link>
 
           {/* Desktop Navigation */}

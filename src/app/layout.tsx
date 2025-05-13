@@ -1,6 +1,9 @@
 import type { Metadata } from "next"
 import { Inter } from "next/font/google"
 import './globals.css'
+import Header from "@/components/Header"
+import WhatsAppButton from "@/components/WhatsAppButton"
+
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
@@ -16,7 +19,11 @@ export default function RootLayout({
   return (
     <html lang="pt">
       <body className={inter.className}>
-        {children}
+        <Header />
+        <main>
+          {children}
+        </main>
+        <WhatsAppButton />
       </body>
     </html>
   )

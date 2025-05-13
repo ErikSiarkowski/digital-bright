@@ -35,7 +35,7 @@ export default function Home() {
       </section>
 
       <Portfolio />
-      <Clients />
+      {/* <Clients /> */}
       <FAQ />
       <Footer />
     </main>

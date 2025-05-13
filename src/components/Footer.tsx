@@ -1,5 +1,6 @@
 import { IconBrandInstagram, IconBrandLinkedin, IconBrandFacebook } from '@tabler/icons-react'
 import Link from 'next/link'
+import Image from 'next/image'
 
 const Footer = () => {
   return (
@@ -9,7 +10,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <h3 className="text-xl font-bold mb-4 text-primary relative inline-block">
-              Digital Bright
+              <Image src="/images/logos/logo-branco.png" alt="Digital Bright" width={100} height={100} />
               <div className="absolute -bottom-2 left-0 w-full h-0.5 bg-primary/50"></div>
             </h3>
             <p className="text-gray-400">
@@ -91,11 +92,11 @@ const Footer = () => {
             <ul className="space-y-2 text-gray-400">
               <li className="group flex items-center">
                 <span className="w-0 group-hover:w-2 h-0.5 bg-primary mr-0 group-hover:mr-2 transition-all"></span>
-                contato@agency.com
+                contato@digitalbright.com.br
               </li>
               <li className="group flex items-center">
                 <span className="w-0 group-hover:w-2 h-0.5 bg-primary mr-0 group-hover:mr-2 transition-all"></span>
-                (11) 9999-9999
+                (11) 96729-7777
               </li>
               <li className="group flex items-center">
                 <span className="w-0 group-hover:w-2 h-0.5 bg-primary mr-0 group-hover:mr-2 transition-all"></span>

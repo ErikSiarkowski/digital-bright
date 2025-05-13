@@ -1,6 +1,7 @@
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import { IconCode, IconShoppingCart, IconChartBar, IconSearch, IconDeviceMobile, IconBrandInstagram } from '@tabler/icons-react'
+import Link from 'next/link'
 
 const services = [
   {
@@ -133,9 +134,9 @@ export default function Servicos() {
             <p className="text-xl text-gray-600 mb-8">
               Entre em contato conosco e descubra como podemos ajudar a alcançar seus objetivos.
             </p>
-            <button className="bg-primary text-white px-8 py-3 rounded-lg hover:bg-primary/90 transition-colors">
+            <Link href="/contato" className="bg-primary text-white px-8 py-3 rounded-lg hover:bg-primary/90 transition-colors">
               Fale Conosco
-            </button>
+            </Link>
           </div>
         </div>
       </section>
